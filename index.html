@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black;">
+         <main class="form-signin w-50 m-auto">
+        <form>
+
+          <center><h1 class="h3 mb-3 fw-normal">Calculator</h1></center>
+      
+          <div class="form-floating">
+           <center> <input type="text" placeholder="Number 01" id="num1" ></center>
+           <br>
+           
+          <div class="form-floating">
+            <center><input type="text" placeholder="Number 02" id="num2"></center>
+            <br>
+          </div>
+          <div class="form-floating">
+           <center> <input type="text" placeholder="Operator" id="operator" ></center>
+        </div>      
+          <br>
+          <center><button class="btn btn-outline-primary w-80 py-2" type="button" id="btn" onclick="calc()">Calculate</button></center>
+        </form>
+      </main>
+     <center> <h2><label for="" id="output"></label></h2></center>
+
+      <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
